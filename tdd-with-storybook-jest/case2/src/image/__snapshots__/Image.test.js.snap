@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`제품 이미지(snampshots) - 빈티지 시계가 표현된다. 1`] = `
+<div
+  className="image-container"
+>
+  <img
+    alt="vintage_clock_1.png"
+    src="vintage_clock_1.png"
+  />
+</div>
+`;
+
+exports[`제품 이미지(snampshots) - 존재하지 않는다면 No-Image가 표현된다. 1`] = `
+<div
+  className="image-container"
+>
+  <img
+    alt="no_image.png"
+    src="no_image.png"
+  />
+</div>
+`;

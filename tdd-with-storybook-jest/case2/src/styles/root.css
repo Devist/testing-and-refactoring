@@ -14,10 +14,6 @@
   margin: 10px 0px;
 }
 
-.image-container img {
-  width: 100%;
-}
-
 .product-container > .info-container {
   display: flex;
   flex-direction: column;

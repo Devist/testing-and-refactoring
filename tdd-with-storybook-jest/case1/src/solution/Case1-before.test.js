@@ -1,9 +1,9 @@
 // import React from 'react';
-import { cleanup, screen, fireEvent, render } from '@testing-library/react'
+import { cleanup } from '@testing-library/react'
 
-import Root from './Root'
-import image from '../img/vintage_clock.png'
-import product from '../__fixtures__/products/vintage_clock.json'
+// import Root from './Root'
+// import image from '../img/vintage_clock.png'
+// import product from '../__fixtures__/products/vintage_clock.json'
 
 // Note: running cleanup afterEach is done automatically for you in @testing-library/react@9.0.0 or higher
 // 테스트가 완료된 후 DOM을 unmount(마운트 해제)하고 정리합니다.
