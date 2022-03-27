@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import { Image } from '../image/Image'
+
 import '../styles/root.css'
 
 function Root(props) {
@@ -29,9 +31,10 @@ function Root(props) {
           <span> {name} </span>
         </div>
 
-        <div className="image-container">
-          <img src={image} alt={image} />
-        </div>
+        {/* <div className="image-container"> */}
+        <Image image={image} />
+        {/* <img src={image} alt={image} /> */}
+        {/* </div> */}
 
         <div className="info-container">
           <div className="price-container">
