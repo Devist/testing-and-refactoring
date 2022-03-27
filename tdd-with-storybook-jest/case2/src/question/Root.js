@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { Image } from '../image/Image'
+import ImgSlider from '../img-slider'
 
 import '../styles/root.css'
 
 function Root(props) {
-  const { name, image, price, description, seller } = props
+  const { name, images, price, description, seller } = props
 
   const [quantity, setQuantity] = React.useState(0)
   const [payment, setPayment] = React.useState(0)
@@ -31,8 +31,9 @@ function Root(props) {
           <span> {name} </span>
         </div>
 
+        <ImgSlider images={images} />
         {/* <div className="image-container"> */}
-        <Image image={image} />
+        {/* <Image image={image} /> */}
         {/* <img src={image} alt={image} /> */}
         {/* </div> */}
 
@@ -99,7 +100,7 @@ function Root(props) {
 Root.propTypes = {
   name: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
-  image: PropTypes.string,
+  images: PropTypes.array,
   description: PropTypes.string,
   seller: PropTypes.string.isRequired,
 }
