@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[solution] 주문자 정보를 불러와야 한다. 1`] = `
+<div>
+  <div
+    class="root-container"
+  >
+    <div
+      class="product-container"
+    >
+      <div
+        class="name-container"
+      >
+        <span>
+           
+          빈티지 시계
+           
+        </span>
+      </div>
+      <div
+        class="image-container"
+      >
+        <div
+          class="slider-root-container"
+        >
+          <div
+            class="slider-container"
+          >
+            <div
+              class="slide-wrapper"
+              style="transition: all 0.1s ease-in-out; transform: translateX(0px );"
+            >
+              <img
+                alt="no_image.png"
+                src="no_image.png"
+              />
+            </div>
+          </div>
+          <div
+            class="slider-button-container"
+          />
+        </div>
+      </div>
+      <div
+        class="info-container"
+      >
+        <div
+          class="price-container"
+        >
+          <span>
+            제품가격
+          </span>
+          <span>
+            30000
+          </span>
+        </div>
+        <div
+          class="description-container"
+        >
+          <span>
+            제품설명
+          </span>
+          1986년에 만들어진 빈티지 시계입니다. 어느곳에나 잘 어울립니다. 인테리어로 분위기 Up 하세요
+        </div>
+      </div>
+    </div>
+    <div
+      class="seller-comp-container"
+    >
+      <p>
+         판매자 
+      </p>
+      <div
+        class="show"
+      >
+        <table>
+          <tbody>
+            <tr
+              class="row"
+            >
+              <td
+                class="label"
+              >
+                이메일
+              </td>
+              <td
+                class="value"
+              >
+                jake@jake.com
+              </td>
+            </tr>
+            <tr
+              class="row"
+            >
+              <td
+                class="label"
+              >
+                이름
+              </td>
+              <td
+                class="value"
+              >
+                jake
+              </td>
+            </tr>
+            <tr
+              class="row"
+            >
+              <td
+                class="label"
+              >
+                연락처
+              </td>
+              <td
+                class="value"
+              >
+                010-2222-3444
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div
+      class="quantity-container"
+    >
+      <span>
+         수량 
+      </span>
+      <input
+        data-testid="quantity"
+        type="number"
+        value="0"
+      />
+    </div>
+    <div
+      class="discount-container"
+    >
+      <p>
+         할인 
+      </p>
+      <div
+        class="property-container"
+      >
+        <p>
+           주문금액 
+        </p>
+        <p
+          id="order-amount"
+        >
+           
+          0
+           
+        </p>
+      </div>
+      <div
+        class="property-container"
+      >
+        <p>
+           
+          사용가능 포인트(0원)
+           
+        </p>
+        <input
+          id="user-point"
+          type="number"
+          value="0"
+        />
+      </div>
+      <div
+        class="property-container"
+      >
+        <p>
+           쿠폰 
+        </p>
+        <select
+          id="select-coupon"
+        >
+          <option
+            value=""
+          >
+             쿠폰선택 
+          </option>
+          <option
+            value="id_1"
+          >
+             10% 프로모션
+          </option>
+          <option
+            value="id_2"
+          >
+             20% 프로모션
+          </option>
+          <option
+            value="id_3"
+          >
+             30% 프로모션
+          </option>
+        </select>
+      </div>
+      <div
+        class="property-container"
+      >
+        <p>
+           할인금액 
+        </p>
+        <p
+          id="discount-amount"
+        >
+           
+          0
+           
+        </p>
+      </div>
+    </div>
+    <div
+      class="payment-container"
+    >
+      <span>
+         결제금액 
+      </span>
+      <span
+        id="payment-amount"
+      >
+         
+        0
+         
+      </span>
+    </div>
+    <div
+      class="agree-container"
+    >
+      <input
+        data-testid="agree"
+        type="checkbox"
+        value="false"
+      />
+      구매 동의
+    </div>
+    <div
+      class="button-container"
+    >
+      <button
+        data-testid="purchase"
+        disabled=""
+      >
+         
+        구매하기
+         
+      </button>
+      <button
+        data-testid="cart"
+        disabled=""
+      >
+         
+        장바구니 담기
+         
+      </button>
+    </div>
+  </div>
+</div>
+`;

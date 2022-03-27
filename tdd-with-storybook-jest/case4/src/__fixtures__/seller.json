@@ -1,0 +1,12 @@
+{
+    "jake@jake.com": {
+        "email": "jake@jake.com",
+        "name": "jake",
+        "contact": "010-2222-3444"
+    },
+    "test@test.com": {
+        "email": "test@test.com",
+        "name": "test",
+        "contact": "010-6666-7777"
+    }
+}

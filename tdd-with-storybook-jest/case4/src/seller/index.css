@@ -1,0 +1,21 @@
+
+.seller-comp-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.seller-comp-container .hide {
+    display: none;
+}
+
+.seller-comp-container .show {
+    width: 100%;
+    display: block;
+}
+
+.seller-comp-container table {
+    width: 100%;
+    outline: solid black 1px;
+}
