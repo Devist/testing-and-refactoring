@@ -1,0 +1,71 @@
+.root-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-container > .name-container, .image-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+}
+
+.product-container > .info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-container > .price-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.info-container > .description-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+
+.seller-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0px;;
+}
+
+.quantity-container, .payment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.quantity-container > input[type='number'] {
+  width: 50px
+}
+
+.agree-container {
+  width: 200px
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button-container > button {
+  width: 200px
+}
